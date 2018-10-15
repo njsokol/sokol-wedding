@@ -1,0 +1,35 @@
+/* 
+#ffd027 - yellow
+#aa2c58 - pink
+#2a9d8f - light green
+#214e34 - dark green
+*/
+
+.text-1 {
+  color: #ffd027;
+}
+.text-2 {
+  color: #aa2c58;
+}
+.text-3 {
+  color: #2a9d8f;
+}
+.text-4 {
+  color: #214e34;
+}
+.text-white {
+  color: #ffffff;
+}
+
+.bg-1 {
+  background-color: #ffd027;
+}
+.bg-2 {
+  background-color: #aa2c58;
+}
+.bg-3 {
+  background-color: #2a9d8f;
+}
+.bg-4 {
+  background-color: #214e34;
+}
