@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
 import Image1 from "./images/engagement-photos/AW0A1155.JPG";
-import Image2 from "./images/engagement-photos/AW0A1079.JPG";
-import Image3 from "./images/engagement-photos/AW0A1117.JPG";
 import Image4 from "./images/engagement-photos/AW0A1191.JPG";
 import Image5 from "./images/engagement-photos/AW0A1284.JPG";
 
@@ -50,47 +48,43 @@ class App extends Component {
           }}
         >
           <h1 className="heading-1">Location:</h1>
-          <div
-            className="row"
-            style={{ justifyContent: "center", alignItems: "center" }}
-          >
-            <h1 className="text-4" style={{ paddingRight: "5rem" }}>
-              <div style={{ textAlign: "center" }}>
-                <span
-                  style={{
-                    fontSize: "1.5em",
-                    paddingBottom: "0.5em",
-                    display: "block"
-                  }}
-                >
-                  Vintage Villas
-                </span>
-                4209 Eck Ln
-                <br />
-                Austin, TX 78734
-              </div>
-            </h1>
-            <div>
-              <div
-                className="mapouter"
+          <h1 className="text-4">
+            <div style={{ textAlign: "center" }}>
+              <span
                 style={{
-                  border: "1rem solid #214e34",
-                  display: "inline-block"
+                  color: "#111",
+                  fontSize: "1.1em",
+                  paddingBottom: "0.5em",
+                  display: "block"
                 }}
               >
-                <div className="gmap_canvas">
-                  <iframe
-                    title="cjknajdsncajs"
-                    width="300"
-                    height="300"
-                    id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=vintage%20villas%20austin%20tx&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                    frameBorder="0"
-                    scrolling="no"
-                    marginHeight="0"
-                    marginWidth="0"
-                  />
-                </div>
+                Vintage Villas
+              </span>
+              4209 Eck Ln
+              <br />
+              Austin, TX 78734
+            </div>
+          </h1>
+          <div style={{ textAlign: "center" }}>
+            <div
+              className="mapouter"
+              style={{
+                border: "1rem solid #214e34",
+                display: "inline-block"
+              }}
+            >
+              <div className="gmap_canvas">
+                <iframe
+                  title="cjknajdsncajs"
+                  width="300"
+                  height="300"
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=vintage%20villas%20austin%20tx&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameBorder="0"
+                  scrolling="no"
+                  marginHeight="0"
+                  marginWidth="0"
+                />
               </div>
             </div>
           </div>

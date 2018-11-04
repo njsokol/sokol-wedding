@@ -64,7 +64,7 @@ html body {
   color: #fff;
   text-shadow: rgba(170, 44, 88, 0.55) 3px 2px 0px;
   font-family: "Parisienne", cursive;
-  font-size: 8vw;
+  font-size: 5rem;
   text-align: center;
   width: 100%;
   flex: 1;
@@ -83,10 +83,16 @@ html body {
 
 .pic-grid {
   display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 720px) {
+  .pic-grid {
+    flex-direction: column;
+  }
 }
 
 .pic-grid-item {
-  width: 50vw;
+  flex: 1;
   height: 40vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -95,7 +101,7 @@ html body {
 
 .heading-1 {
   font-family: "Parisienne", cursive;
-  font-size: 5vw;
+  font-size: 5rem;
   text-align: center;
   margin: 1rem 0;
 }
@@ -105,4 +111,10 @@ html body {
 }
 .registry-link:hover {
   color: #c5396a;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
