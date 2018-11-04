@@ -41,13 +41,24 @@ html body {
   background-color: #214e34;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
 .banner {
-  height: 100vh;
+  height: 95vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center 80%;
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+.banner-filler {
+  height: 50vh;
 }
 .banner-text {
   color: #fff;
@@ -56,7 +67,18 @@ html body {
   font-size: 8vw;
   text-align: center;
   width: 100%;
-  padding-top: 50vh;
+  flex: 1;
+}
+.scroll-down {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.scroll-down img {
+  filter: invert(100%);
+  max-width: 5rem;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 .pic-grid {
@@ -76,4 +98,11 @@ html body {
   font-size: 5vw;
   text-align: center;
   margin: 1rem 0;
+}
+
+.registry-link {
+  color: #aa2c58;
+}
+.registry-link:hover {
+  color: #c5396a;
 }
