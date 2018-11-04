@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import Image1 from "./images/engagement-photos/AW0A1155-2.jpg";
+import Image1 from "./images/engagement-photos/AW0A1155.JPG";
 import Image2 from "./images/engagement-photos/AW0A1079.JPG";
 import Image3 from "./images/engagement-photos/AW0A1117.JPG";
 import Image4 from "./images/engagement-photos/AW0A1191.JPG";
