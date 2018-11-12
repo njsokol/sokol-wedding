@@ -118,3 +118,42 @@ html body {
   justify-content: center;
   align-items: center;
 }
+
+.text-container {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+
+.text-container a {
+  color: #aa2c58;
+  font-weight: 700;
+}
+
+a.golf-sign-up {
+  all: unset;
+  padding: 1rem 2rem;
+  background-color: #aa2c58;
+  color: #fff;
+  font-weight: 900;
+  margin-top: 1rem;
+  display: inline-block;
+  transition: all 0.5s;
+}
+
+a.golf-sign-up:hover {
+  background-color: #c5396a;
+  box-shadow: 0px 8px 24px -9px #111;
+  cursor: pointer;
+}
+
+.golf-container {
+  background-image: url("./images/golf.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.golf-container .text-container {
+  padding: 1rem 2rem;
+  background-color: #b2cf84d4;
+}
