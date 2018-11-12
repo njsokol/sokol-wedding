@@ -3,6 +3,7 @@ import "./App.css";
 import Image1 from "./images/engagement-photos/AW0A1155.JPG";
 import Image4 from "./images/engagement-photos/AW0A1191.JPG";
 import Image5 from "./images/engagement-photos/AW0A1284.JPG";
+import golfImage from "./images/golf.jpg";
 
 class App extends Component {
   render() {
@@ -94,6 +95,79 @@ class App extends Component {
             padding: "3rem 0 5rem 0"
           }}
         >
+          <h1 className="heading-1">Room Block</h1>
+          <div className="text-container">
+            <p>
+              We have reserved a block of hotel rooms at the wedding venue -
+              Vintage Villas Boutique Hotel, Lake Travis. The room block is in
+              the (Central Texas Villa) and available for our group to book on
+              Friday, January 25 and/or Saturday, January 26. You may call the
+              Vintage Villas Hotel directly 512-266-9333; the hotel website is{" "}
+              <a
+                href="https://www.vintagevillas.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://www.vintagevillas.com/
+              </a>{" "}
+            </p>
+            <p>
+              Another option is Lake Austin (All Inclusive) Resort and Spa which
+              is also very close to the wedding venue (@ 3 miles). Their
+              website:
+              <a
+                href="https://www.lakeaustin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://www.lakeaustin.com/
+              </a>
+            </p>
+          </div>
+        </div>
+        <div
+          style={{
+            padding: "3rem 0 5rem 0"
+          }}
+          className="golf-container"
+        >
+          <h1 className="heading-1" style={{ color: "#FFF" }}>
+            Golf
+          </h1>
+          <div className="text-container">
+            <p>
+              Dave will organize and host all golfers at our University of Texas
+              Country Club on Friday January 25. Course is 7,412 yards, par 71
+              overlooking Lake Austin. Website:{" "}
+              <a
+                href="https://www.utgolfclub.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://www.utgolfclub.com/
+              </a>
+            </p>
+            <p>
+              If 7,412 is too long, Molly will host interested groups on the 6
+              hole par 3 short course - "Spieth Lower 40".
+            </p>
+            <div style={{ textAlign: "center" }}>
+              <a
+                href="https://docs.google.com/spreadsheets/d/1wjkILY6xvjq-Y8QVVMpOOo7ogW95hLbccnDlA9Z9SLA/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="golf-sign-up"
+              >
+                Sign Up Here
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          style={{
+            padding: "3rem 0 5rem 0"
+          }}
+        >
           <h1 className="heading-1">Gift Registry</h1>
           <a
             href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/546642406?eventType=Wedding"
@@ -122,28 +196,6 @@ class App extends Component {
             style={{ backgroundImage: `url(${Image5})` }}
           />
         </div>
-
-        {/* <p>How to get to the ceremony/ hotel room block</p>
-        <p>Hotel room block reservation</p>
-
-        <p>Are you from out of town? (Tour Guide Page) </p>
-        <p>
-          Suggestions on what to do on Friday night (Restaurant suggestions
-          around the hotel) and what to do on Saturday day before the wedding…
-          In Austin or around the area
-        </p>
-        <p>
-          Suggestions for dinner: The Oasis, Moviehouse and Eatery, Jennas Asian
-          Kitchen
-        </p>
-        <p>Go Into Austin: Chuy’s, For Tex Mex</p>
-
-        <p>Attire- Casual</p>
-
-        <p>Registry- </p>
-        <p>Pottery Barn</p>
-        <p>Crate and Barrel</p>
-        <p>Bed Bath and Beyond</p> */}
       </div>
     );
   }
