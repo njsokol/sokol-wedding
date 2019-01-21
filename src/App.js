@@ -90,6 +90,26 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <div style={{ padding: "3rem 0", flex: 1, backgroundColor: "#eee" }}>
+          <h1 className="heading-1">Attire:</h1>
+          <iframe
+            seamless="seamless"
+            style={{
+              width: "100%",
+              border: "none",
+              display: "block",
+              maxWidth: "420px",
+              height: "360px",
+              margin: "0 auto"
+            }}
+            src="https://getyarn.io/yarn-clip/embed/b492e5e2-4486-4f33-bc97-d4727e67a61d?autoplay=false"
+          >
+            {" "}
+          </iframe>
+          <h1 className="text-3" style={{ textAlign: "center" }}>
+            A.K.A. Business Casual
+          </h1>
+        </div>
         <div
           style={{
             padding: "3rem 0 5rem 0"
